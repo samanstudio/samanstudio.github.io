@@ -515,13 +515,33 @@ footer.footerContainer{
   display: flex;
   justify-content: center;
 }
-.socialIcons a{
-  text-decoration: none;
-  padding:  15px;
-  background-color: white;
-  margin: 20px;
-  border-radius: 40%;
+.socialIcons a {
+  text-decoration: none;                     /* Remove underline from links */
+  padding: 15px;                            /* Padding around the icon */
+  background-color: white;                  /* Background color of the icon container */
+  margin: 20px;                             /* Margin around the icon */
+  border-radius: 50%;                       /* Fully rounded corners for a circular shape */
+  display: inline-flex;                      /* Use flexbox for better alignment */
+  align-items: center;                       /* Center items vertically */
+  justify-content: center;                   /* Center items horizontally */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
 }
+
+.socialIcons a:hover {
+  background-color: #f0f0f0;                /* Light grey background on hover */
+  transform: scale(1.1);                    /* Slightly enlarge the icon on hover */
+}
+
+/* Add this new CSS for the image inversion */
+.socialIcons img {
+  transition: filter 0.3s ease; /* Smooth transition effect for filter */
+}
+
+.socialIcons a:hover img {
+  filter: invert(1); /* Invert the image colors on hover */
+}
+
+
 .socialIcons a i{
   font-size: 3em;
   color: black;
