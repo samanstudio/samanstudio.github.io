@@ -146,6 +146,14 @@ header h1{
   font-family: "Saved By Zero", sans-serif;
 }
 
+.img-fluid {
+  width: 300px; /* You can set this to any value */
+  height: 300px; /* Same as width for a perfect circle */
+  border-radius: 50%;
+  object-fit: cover; /* Optional: Ensures the image fits within the circle */
+  margin: 10%;
+}
+
  
 
  header p {
