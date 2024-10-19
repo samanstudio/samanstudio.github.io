@@ -64,6 +64,7 @@ button {
 
 button:hover, button:focus, button.active {
   color: #3a3a3a;
+  font-weight: bold;
 }
 button:hover {
   color: #a5a5a5;
@@ -572,11 +573,12 @@ footer.footerContainer{
   color: white;
 }
 .copyright{
-  opacity: 0.7;
+  opacity: 1.0;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
   margin: 0px 5px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -586,7 +588,7 @@ footer.footerContainer{
 
 
 footer span {
-  color: #3a3a3a;
+  color: #ffffff;
 }
 
 @media (max-width: 576px) {
