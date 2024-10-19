@@ -39,7 +39,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 
@@ -63,18 +63,18 @@ button {
 }
 
 button:hover, button:focus, button.active {
-  color: #00e9e6;
+  color: #3a3a3a;
 }
 button:hover {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 
 .highlighted {
-  color: #00e9e6;
+  color: #3a3a3a;
 }
 .highlighted2 {
-	color: #ff4de4;}
+	color: #a5a5a5;}
 
 .shadow-bg {
   background-color: rgba(0, 0, 0, 0.9);
@@ -90,7 +90,7 @@ button:hover {
 }
 
 .active {
-  color: #00e9e6;
+  color: #3a3a3a;
 }
 
 .hidden {
@@ -118,11 +118,11 @@ nav .nav-item {
 }
 
 nav .nav-item:hover, nav .nav-item:focus {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 nav .active {
-  color: #00fffb;
+  color: #b3b3b3;
 }
 
 nav .bi-list {
@@ -247,7 +247,7 @@ header .hero-img .hero-text .bi-arrow-down {
 }
 
 header .hero-img .hero-text .bi-arrow-down:hover {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 /*
@@ -276,7 +276,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .portfolio .menu a:hover {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 .portfolio .gallery {
@@ -399,7 +399,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .commissions button:hover {
-  color: #ff4de4;
+  color: #a5a5a5;
 }
 
 #commissions {
@@ -559,7 +559,7 @@ footer.footerContainer{
   transition: 0.5s;
 }
 .socialIcons a:hover i{
-  color: #ff4de4;
+  color: #a5a5a5;
   transition: 0.5s;
 }
 
@@ -586,7 +586,7 @@ footer.footerContainer{
 
 
 footer span {
-  color: #00e9e6;
+  color: #3a3a3a;
 }
 
 @media (max-width: 576px) {
