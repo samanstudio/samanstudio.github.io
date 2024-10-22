@@ -365,7 +365,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 .commissions {
   color: white;
   background-color: rgb(0, 0, 0);
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/giphy2.gif");
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -489,7 +489,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .footerContainer{
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/giphy2.gif");
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 100%;
