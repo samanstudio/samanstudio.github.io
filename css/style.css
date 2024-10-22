@@ -109,7 +109,7 @@ nav {
 
 nav .navbar-brand {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   color: white;
 }
 
@@ -378,6 +378,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 .commissions {
   color: white;
   background-color: rgb(0, 0, 0);
+  background-image: url("../img/hero.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 100%;
