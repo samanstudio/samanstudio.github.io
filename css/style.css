@@ -164,13 +164,26 @@ header h1{
 
 header .hero-img {
   position: relative;
-  height: 100vh;
-  background-image: url("../img/giphy.gif");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 0;
+  height: 100vh; /* Full height of the viewport */
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Cover the whole area */
+  background-attachment: fixed; /* Fixed background attachment */
+  z-index: 0; /* Layering */
 }
+
+header .hero-img video {
+  position: absolute; /* Positioning the video absolutely */
+  top: 50%; /* Center the video vertically */
+  left: 50%; /* Center the video horizontally */
+  min-width: 100%; /* Ensure the video covers the width */
+  min-height: 100%; /* Ensure the video covers the height */
+  width: auto; /* Allows height to scale */
+  height: auto; /* Allows width to scale */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+  transform: translate(-50%, -50%); /* Center the video */
+  z-index: -1; /* Place video behind the content */
+}
+
 
 header .hero-img .hero-shadow {
   position: absolute;
