@@ -147,6 +147,12 @@ header h1{
   font-family: "Saved By Zero", sans-serif;
 }
 
+header video#hero-video{
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
 .img-fluid {
   width: 300px; /* You can set this to any value */
   height: 300px; /* Same as width for a perfect circle */
@@ -165,11 +171,13 @@ header h1{
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/giphy.gif");
+  overflow: hidden;
+  scroll-snap-align: start;
+  /*background-image: url("../img/giphy.gif");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  z-index: 0;
+  z-index: 0;*/
 }
 
 header .hero-img .hero-shadow {
