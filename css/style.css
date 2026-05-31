@@ -51,6 +51,7 @@ a:hover {
  */
 html {
   scroll-margin-top: 174px;
+  overflow-x: hidden;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
   font-family: "Lato", sans-serif;
   background-color: transparent;
   color: #1f1f1f;
+  overflow-x: hidden;
 }
 
 button {
@@ -452,7 +454,7 @@ body[data-page-key="home"] .portfolio .gallery {
   position: absolute;
   width: 100%;
   overflow: hidden;
-  bottom: 0px;
+  bottom: 14px;
   z-index: 2;
   -webkit-transform: translate3d(0, 200%, 0);
           transform: translate3d(0, 200%, 0);
@@ -470,6 +472,8 @@ body[data-page-key="home"] .portfolio .gallery {
 .portfolio .gallery .gallery__item .overlay .text p {
   line-height: 1.4;
   letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.92);
+  display: none;
 }
 
 .portfolio .gallery .gallery__item .overlay .text a:hover {
