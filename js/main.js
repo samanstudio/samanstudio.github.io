@@ -47,6 +47,16 @@ $(document).ready(function () {
   var counter = initShow;
   var iso = $grid.data("isotope");
 
+  var defaultFilter = document.body.getAttribute("data-default-filter") || "*";
+  if (defaultFilter !== "*") {
+    $grid.isotope({
+      filter: defaultFilter,
+    });
+
+    $(".btn-portfolio").removeClass("active");
+    $('.btn-portfolio[data-filter="' + defaultFilter + '"]').addClass("active");
+  }
+
   loadMore(initShow);
 
   function loadMore(toShow) {

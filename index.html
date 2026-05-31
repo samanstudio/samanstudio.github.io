@@ -44,8 +44,7 @@
                     <a class="nav-item nav-link px-4" href="projects.html">Projects</a>
                     <a class="nav-item nav-link px-4" href="art-session.html">Art Session</a>
                     <a class="nav-item nav-link px-4" href="character-design.html">Character Design</a>
-                    <a class="nav-item nav-link px-4" href="index.html#about">About</a>
-                    <a class="nav-item nav-link px-4" href="index.html#contact">Contact</a>
+                    <a class="nav-item nav-link px-4" href="index.html#about">About & Contact</a>
                 </div>
             </div>
         </div>
@@ -65,8 +64,8 @@
 
 
      </h1>
-    <a href="#portfolio"> 
-    <i class="bi bi-arrow-down"></i>
+    <a href="#portfolio" class="page-banner__link" aria-label="Jump to portfolio"> 
+    <i class="bi bi-arrow-down" aria-hidden="true"></i>
     </a>
             </div>
         </div>
@@ -77,23 +76,15 @@
             <div class="portfolio bg-white py-5">
                 <div class="container">
                     <div class="row justify-content-between align-items-center menu">
-                        <div class="col-4">
+                        <div class="col-12 col-lg-2">
                             <h1>Home</h1>
                         </div>
-                        <div class="col-lg-6 text-center">
-                            <div id="filters" class="row">
-                                <div class="col">
-                                    <button class="btn-portfolio active" data-filter="*">All</button>
-                                </div>
-                                <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c1">Projects</button>
-                                </div>
-                                <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c2">Art Session</button>
-                                </div>
-                                <div class="col">
-                                    <button class="btn-portfolio" data-filter=".c3">Character Design & Illustration</button>
-                                </div>
+                        <div class="col-12 col-lg-10 text-center text-lg-end">
+                            <div id="filters" class="home-filters">
+                                <button class="btn-portfolio active" data-filter="*">All</button>
+                                <button class="btn-portfolio" data-filter=".c1">Projects</button>
+                                <button class="btn-portfolio" data-filter=".c2">Art Session</button>
+                                <button class="btn-portfolio" data-filter=".c3">Character Design & Illustration</button>
                             </div>
                         </div>
                     </div>
@@ -818,7 +809,7 @@
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-3 text-center">
-                    <button id="load-more"><i class="bi bi-arrow-down display-4"></i>
+                    <button id="load-more"><i class="bi bi-chevron-double-down" aria-hidden="true"></i>
                         <h3>Show more</h3>
                     </button>
                 </div>
@@ -828,72 +819,6 @@
 
 
 
-     <section id="commissions">
-        <div class="commissions">
-            <div class="commissions-shadow">
-                <div class="container">
-                    <div class="row item" data-text="commissions">
-                        <div class="col-12 col-sm-4">
-                            <h2>Animation</h2>
-                        </div>
-                
-                        <div class="col-8 col-sm-6">
-                            
-                            <p>
-                                                             2D,
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    3D
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('commissions')"><i class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                    <div class="underline-light"></div>
-                    <div class="row item" data-text="brand">
-                        <div class="col-12 col-sm-4">
-                            <h2>Music Composition</h2>
-                        </div>
-                        <div class="col-8 col-sm-6">
-                            <p>
-                                Soundtrack,
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    Animation, Film, Game
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('brand')"><i class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                    <div class="underline-light"></div>
-                    <div class="row item" data-text="social-media">
-                        <div class="col-12 col-sm-4">
-                            <h2><span class="highlighted"></span>Workshop</h2>
-                        </div>
-                        <div class="col-8 col-sm-6">
-                            <p>
-                                Digital Art,
-                                <span class="dots">...</span>
-                                <span class="more" style="display: none;">
-                                    Animation
-                                </span>
-                            </p>
-                        </div>
-                        <div class="col-3 col-sm-2 text-center">
-                            <button class="plus" onclick="readMore('social-media')"><i
-                                    class="bi bi-plus-lg"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </section>
-
         <section id="about">
             <div class="about">
                 <div class="container">
@@ -902,6 +827,10 @@
                             <p> Saman Aboutalebi is is an animation artist, director, and composer. Since 2001, his work as a producer has been showcased at international festivals, leading to collaborations with animation and game studios since 2003. A permanent member of ASIFA since 2011, he currently teaches 2D and 3D techniques at the Schule für Bildende Kunst und Gestaltung (SBKG) Berlin, nurturing the next generation of creative talent.
                                 
                             </p>
+                            <div id="contact" class="mt-4">
+                                <p>Get in touch via email:</p>
+                                <h3><a href="mailto:Info@saman.studio"><b>Info@saman.studio</b></a></h3>
+                            </div>
                             <br>
                                                     </div>                                               
                         <div class="col-12 col-md-4 align-self: center">
@@ -918,80 +847,20 @@
 
         
 
-        <section id="contact">
-            <div class="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <h1>Contact</h1>
-                        </div>
-                        <div class="col">
-                            <p>Contact me via email:</p>
-                            <h3><a href="mailto:Info@saman.studio"><b>Info@saman.studio</b></a></h3>
-                        </div>
-                        <div class="col">
-                            <p>
-                                 <br>
-                                <a href="tel:+32-504-444-123"> </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="contact-form col-12">
-                        <form action="mailto:Info@saman.studio" method="post" class="needs-validation" novalidate>
-                            <div class="form-group mt-5">
-                                <label class="col-12">Full name</label>
-                                <input class="col-12" type="text" id="fname" placeholder="Full name" name="fname"
-                                    required>
-                                <div class="invalid-feedback">Please write a full name.</div>
-                            </div>
-                            <div class="form-group mt-5">
-                                <label class="col-12">E-mail</label>
-                                <input class="col-12" type="email" id="email" placeholder="E-mail" name="email" required
-                                    >
-                                <div class="invalid-feedback">Please write a correct e-mail.</div>
-                            </div>
-                            <div class="form-group mt-5">
-                                <label class="col-12">Message</label>
-                                <input class="col-12" type="text" id="message" placeholder="Message" name="message"
-                                    required>
-                                <div class="invalid-feedback">Please write a message.</div>
-                            </div>
-                            <div class="row justify-content-end">
-                                <div class="col-12 col-lg-3 mb-5 text-end">
-                                    <button type="submit" name="submit" class="main-button">Send message
-                                        <img src="img/icons/arrow-right.svg" alt="arrow-right"
-                                            style="width: 40px; margin-left: 12px;">
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
 
     <footer>
-        <div class="footerContainer">
-            <div class="footershadow">
-                 <div class="socialIcons">
-                        <a href="https://www.instagram.com/samanart/">
-                            <!-- Replace Twitter icon with Eventbrite logo -->
-                            <img src="./img/instagram-logo-black-and-white.png" alt="Eventbrite Logo" style="width: 52px; height: 52px;">
-                        </a>
-
-                        <a href="https://www.eventbrite.de/o/saman-art-session-84037079363?_gl=1*13fuefw*_up*MQ..*_ga*NjgwNTA5MDcuMTcyODI0MjQ0Mw..*_ga_TQVES5V6SH*MTcyODI0MjQ0My4xLjEuMTcyODI0MjQ0Ny4wLjAuMA">
-                            <!-- Replace Twitter icon with Eventbrite logo -->
-                            <img src="./img/eventbrite_icon.png" alt="Eventbrite Logo" style="width: 52px; height: 52px;">
-                        </a>
-                    </div>
+        <div class="footer-inner">
+            <div class="socialIcons">
+                <a href="https://www.instagram.com/samanart/" aria-label="Instagram">
+                    <img src="./img/instagram-logo-black-and-white.png" alt="Instagram">
+                </a>
+                <a href="https://www.eventbrite.de/o/saman-art-session-84037079363?_gl=1*13fuefw*_up*MQ..*_ga*NjgwNTA5MDcuMTcyODI0MjQ0Mw..*_ga_TQVES5V6SH*MTcyODI0MjQ0My4xLjEuMTcyODI0MjQ0Ny4wLjAuMA" aria-label="Eventbrite">
+                    <img src="./img/eventbrite_icon.png" alt="Eventbrite">
+                </a>
             </div>
-        </div>
-        
-        <div class="footerBottom">
-            <p> <span class="copyright">  ©2026 © Saman Studio — ALL RIGHTS RESERVED.</span> <br> ANY REPRODUCTION, DERIVATIVE WORKS, DISTRIBUTION OR DOWNLOAD OF THE WORK DISPLAYED ON THIS WEBSITE WITHOUT THE OWNER'S PERMISSION IS RESTRICTED.</p>
+            <p class="footer-copy">© 2026 Saman Studio — All Rights Reserved.<br>Any reproduction, derivative works, distribution or download of the work displayed on this website without the owner's permission is restricted.</p>
         </div>
     </footer>
 
