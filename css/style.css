@@ -205,10 +205,18 @@ header .hero-img.no-video-hero {
   min-height: 45vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/hero.jpg");
-  background-position: center;
-  background-size: cover;
   margin-top: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.page-banner__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .page-banner__overlay {
